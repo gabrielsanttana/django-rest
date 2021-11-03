@@ -1,0 +1,23 @@
+.env
+*.pyc
+dump.rdb
+editor/media/*
+build/*
+package.json
+redis-dump.jsonl
+htmlcov
+.coverage
+lemmas.pickle
+delaf.pickle
+
+# virtualenv
+venv/
+
+# editors config
+.idea/
+.vscode/
+celerybeat-schedule
+celerybeat.pid
+
+# celery
+celerybeat-schedule.db
